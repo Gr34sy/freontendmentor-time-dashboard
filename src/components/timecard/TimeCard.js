@@ -1,12 +1,16 @@
-import React from 'react';
-import { classes } from './timecard.module.css';
+import React from "react";
+import classes from "./timecard.module.css";
 
-const TimeCard = () => {
+const TimeCard = ({ title, hours, lastHours, period, headerColor, headerPicture }) => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <div className={classes.timecard}>
+      <div className={`${classes.header} ${classes[headerColor]}`}></div>
 
-export default TimeCard
+      <div className={classes.container}>
+        asdasd
+      </div>
+    </div>
+  );
+};
+
+export default TimeCard;

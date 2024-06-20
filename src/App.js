@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import TimeCard from './components/timecard/TimeCard';
 
 function App() {
   return (
     <div className="App">
-      Hello
+      <TimeCard headerColor="orange"/>
     </div>
   );
 }
