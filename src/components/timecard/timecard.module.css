@@ -28,20 +28,20 @@
 }
 
 .orange{
-    background-color: orange;
+    background-color: var(--orange);
 }
-.blue{
-    
+.azure{
+    background-color: var(--azure);
 }
 .red{
-    
+    background-color: var(--red);
 }
 .green{
-    
+    background-color: var(--green);
 }
 .purple{
-    
+    background-color: var(--purple);
 }
 .yellow{
-    
+    background-color: var(--yellow);
 }

@@ -1,13 +1,19 @@
 import React from "react";
 import classes from "./timecard.module.css";
+import getHeader from "../../helpers/getHeader";
 
-const TimeCard = ({ title, hours, lastHours, period, headerColor, headerPicture }) => {
+const TimeCard = ({ title, timeframes, headerColor, headerPicture }) => {
+
+  const header = getHeader(title);
+
   return (
     <div className={classes.timecard}>
-      <div className={`${classes.header} ${classes[headerColor]}`}></div>
+      <div className={`${classes.header} ${classes[header.color]}`}>
+        <img src={header.icon} alt={`${title} icon`}/>
+      </div>
 
       <div className={classes.container}>
-        asdasd
+        {title}
       </div>
     </div>
   );

@@ -1,6 +1,13 @@
 :root{
 	--black: #0E1323;
 	--dark-blue: #1C204B;
+	--azure: #55C2E6;
+	--orange: #FF8B64;
+	--red: #FF5E7D;
+	--exercise: #4BCF82;
+	--purple: #7335D2;
+	--yellow: #F1C75B;
+	--blue: #5747EA;
 }
 
 html, body, div, span, applet, object, iframe,
