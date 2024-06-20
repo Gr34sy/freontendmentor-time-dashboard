@@ -15,7 +15,7 @@ const TimeCard = ({ title, time, timeframe}) => {
         period = 'month';
       break;
 
-      case'mdaily':
+      case'daily':
         period = 'day';
       break;
 
@@ -30,11 +30,9 @@ const TimeCard = ({ title, time, timeframe}) => {
   const header = getHeader(title);
 
   return (
-    <div className={classes.timecard}>
-      <div className={`${classes.header} ${classes[header.color]}`}>
-        <div>
-          <img src={header.icon} alt={`${title} icon`}/>
-        </div>
+    <div className={`${classes.timecard} ${classes[header.color]}`}>
+      <div className={classes.header}>
+        <img src={header.icon} alt={`${title} icon`}/>
       </div>
 
       <div className={classes.container}>
