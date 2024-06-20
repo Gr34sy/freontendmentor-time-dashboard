@@ -4,7 +4,7 @@ import data from './data.json';
 import { useEffect, useState } from 'react';
 
 function App() {
-  const [ appData, setAppData] = useState([]);
+  const [ appData, setAppData] = useState({timeframes: {daily: ""}});
 
   useEffect(() => {
     setAppData(data[0]);
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <TimeCard title={appData.title} timeframes={appData.timeframes}/>
+    
     </div>
   );
 }
