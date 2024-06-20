@@ -1,0 +1,38 @@
+.avatarcard{
+    color: white;
+    background-color: var(--dark-blue);
+    border-radius: 12px;
+    width: min(100%, 300px);
+}
+
+.header{
+    background-color: var(--neutral-blue);
+    border-radius: 12px;
+}
+
+.header, .container{
+    padding: 2rem;
+}
+
+.container{
+    display: grid;
+    gap: 1rem;
+    justify-items: start;
+}
+
+.timeframe-btn{
+    border: none;
+    background: transparent;
+    color: var(--white);
+    color: var(--light-purple);
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.timeframe-btn:hover{
+    cursor: pointer;
+    color: var(--white);
+}
+.timeframe-btn--active{
+    color: var(--white);
+}

@@ -1,7 +1,7 @@
 .timecard{
     position: relative;
     color: white;
-    width: min(100%, 400px);
+    width: min(100%, 300px);
 }
 
 .header{
